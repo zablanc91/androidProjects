@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">SI Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="amount_label">Principal Amount ($)</string>
+    <string name="interest_label">Interest Rate (%)</string>
+    <string name="end_result" formatted="false">The simple interest for $%d at a rate of %.2f%% for %d year(s) is $%.2f.</string>
+    <string name="default_label">Please input the values then hit the button to calculate your simple interest.</string>
+    <string name="seekbar_label">%d Year(s)</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="default_year">Move the seek bar to set the number of years.</string>
+
+</resources>
