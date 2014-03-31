@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    android:layout_height="match_parent" 
+    android:weightSum="100" 
+    android:layout_width="match_parent" 
+    android:orientation="vertical" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<ScrollView 
+	    android:layout_height="fill_parent" 
+	    android:layout_width="fill_parent" 
+	    android:layout_weight="30">
+
+
+		<LinearLayout 
+		    android:layout_height="match_parent" 
+		    android:layout_width="match_parent" 
+		    android:orientation="vertical">
+
+			<TextView 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="wrap_content" 
+			    android:text="@string/hatemail_et_addresses"/>
+
+			<EditText 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="match_parent" 
+			    android:id="@+id/etEmails"> 
+			</EditText>
+
+			<TextView 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="wrap_content" 
+			    android:text="@string/hatemail_et_intro"/>
+
+			<EditText 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="match_parent" 
+			    android:id="@+id/etIntro"/>
+
+			<TextView 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="wrap_content" 
+			    android:text="@string/hatemail_et_name"/>
+
+			<EditText 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="match_parent" 
+			    android:id="@+id/etName"/>
+
+			<TextView 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="wrap_content" 
+			    android:text="@string/hatemail_et_stupid_activity"/>
+
+			<EditText 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="match_parent" 
+			    android:id="@+id/etThings"/>
+
+			<TextView 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="wrap_content" 
+			    android:text="@string/hatemail_et_desire"/>
+
+			<EditText 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="match_parent" 
+			    android:id="@+id/etAction"/>
+
+			<TextView 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="wrap_content" 
+			    android:text="@string/hatemail_et_outro"/>
+
+			<EditText 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="match_parent" 
+			    android:id="@+id/etOutro"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+
+	<LinearLayout 
+	    android:layout_height="fill_parent" 
+	    android:layout_width="match_parent" 
+	    android:orientation="vertical" 
+	    android:layout_weight="70">
+
+		<Button 
+		    android:layout_height="fill_parent" 
+		    android:layout_width="fill_parent" 
+		    android:text="@string/hatemail_button_label" 
+		    android:id="@+id/bSentEmail"/>
+
+	</LinearLayout>
+
+</LinearLayout>

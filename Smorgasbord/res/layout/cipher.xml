@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+	    android:layout_height="fill_parent" 
+	    android:layout_width="fill_parent" >
+	    
+        <LinearLayout 
+		    android:layout_height="match_parent" 
+		    android:layout_width="match_parent" 
+		    android:orientation="vertical">
+
+    		<TextView
+        		android:id="@+id/tvModePrompt"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="left"
+        		android:paddingTop="20dp"
+        		android:paddingLeft="10dp"
+        		android:textSize="15dp"
+        		android:text="Would you like to encrypt or decrypt a message?" />
+    		
+    		<RadioGroup
+    		    android:id="@+id/rgModes"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content" 
+    		    android:paddingBottom="20dp"
+    		    android:orientation='horizontal'>
+    		    
+    		    <RadioButton android:id="@+id/rbEncrypt"
+  	            	android:text="encrypt"
+  	            	android:checked="true" />
+  	        	<RadioButton android:id="@+id/rbDecrypt"
+  	            	android:text="decrypt" />
+  	            	
+    		</RadioGroup>
+    		
+    		<TextView
+        		android:id="@+id/tvMessageDisplay"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="left"
+        		android:paddingTop="10dp"
+        		android:paddingLeft="10dp"
+        		android:textSize="15dp"
+        		android:text="Your message:" />
+    		
+    		<EditText 
+				android:layout_height="wrap_content" 
+				android:layout_width="match_parent"
+				android:id="@+id/etMessage"/>
+    		
+    		<TextView
+        		android:id="@+id/tvKeyPrompt"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="left"
+        		android:paddingTop="20dp"
+        		android:paddingLeft="10dp"
+        		android:textSize="15dp"
+        		android:text="Enter a key number (1-26):" />
+    		
+    		<EditText 
+				android:layout_height="wrap_content" 
+				android:layout_width="match_parent"
+				android:digits="0123456789"
+				android:id="@+id/etKey"/>
+    		
+    		
+    		<TextView
+        		android:id="@+id/tvCipherPrompt"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="center"
+        		android:paddingLeft="10dp"
+        		android:paddingRight="10dp"
+        		android:paddingTop="30dp"
+        		android:paddingBottom="30dp"
+        		android:textSize="15dp"
+        		android:text="Please fill in all information then hit the button to start." />
+    		
+    		
+    		<Button 
+		    	android:layout_height="fill_parent" 
+		    	android:layout_width="fill_parent" 
+		    	android:text="encrypt" 
+		    	android:id="@+id/bBegin"/>
+    		
+    		
+    		    
+    
+    	</LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

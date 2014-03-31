@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smorgasbord</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_et_hint">Type a command.</string>
+    <string name="text_button_lable">try a command</string>
+    <string name="text_default_result">Waiting to start.</string>
+    <string name="hatemail_et_addresses">Email address(es):</string>
+    <string name="hatemail_et_intro">Hateful Intro:</string>
+    <string name="hatemail_et_name">Person\'s name:</string>
+    <string name="hatemail_et_stupid_activity">Stupid thing this person does (present tense):</string>
+    <string name="hatemail_et_desire">What you want to do to this person (past or present tense): </string>
+    <string name="hatemail_et_outro">Hateful Outro: </string>
+    <string name="hatemail_button_label">Send Email</string>
+    <string name="hangman_guess">Guess a letter:</string>
+    <string name="hangman_submit">Submit</string>
+    <string name="hangman_reset">Reset</string>
+    <string name="hangman_already">You\'ve already tried that letter.</string>
+    
+
+</resources>
