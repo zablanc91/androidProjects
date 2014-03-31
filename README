@@ -1,0 +1,9 @@
+Android
+====
+Current projects in the directory:
+SICalculator, an app that calculates simple interest after the user has specified a principal amount, interest rate, and year.
+Smorgasbord, an app that serves as a collection of a few different activities:
+-TextPlay has the user issue commands to manipulate the text view in simple ways.
+-HateMail creates a hateful email message to send after the user provides input, mad libs style.
+-Hangman has the user play hangman.
+-CaesarCipher takes in a message provided by the user and encrypts or decrypts it according to the options set.
