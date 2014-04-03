@@ -141,5 +141,12 @@ public class CaesarCipher extends Activity implements View.OnClickListener{
 		
 	}
 
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		finish();	
+		}
+
 	
 }

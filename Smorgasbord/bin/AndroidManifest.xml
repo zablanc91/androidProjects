@@ -52,6 +52,16 @@
             android:label="Caesar Cipher" >
         </activity>
         
+         <activity
+            android:name=".About"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="by Carlo Zablan" >
+            <intent-filter>
+                <action android:name="com.example.smorgasbord.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
     </application>
 
 </manifest>
