@@ -9,3 +9,4 @@ Smorgasbord, an app that serves as a collection of a few different activities:
 -HateMail creates a hateful email message to send after the user provides input, mad libs style.
 -Hangman has the user play hangman.
 -CaesarCipher takes in a message provided by the user and encrypts or decrypts it according to the options set.
+-Browser consists of a simple, Javascript disabled browser. Users can input a valid http or https url or a term that will automatically be searched on Bing to browse the Internet.
