@@ -7,6 +7,8 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -50,6 +52,11 @@
         <activity
             android:name=".CaesarCipher"
             android:label="Caesar Cipher" >
+        </activity>
+        
+        <activity
+            android:name=".Browser"
+            android:label="Browser" >
         </activity>
         
          <activity

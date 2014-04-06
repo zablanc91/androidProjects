@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal" >
+        
+        <EditText 
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" 
+        	android:layout_weight="2"
+        	android:id="@+id/etSearchTerm" />
+        
+        <Button 
+            android:layout_width="fill_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="8"
+        	android:text="Go"
+        	android:id="@+id/bGo" /> 
+        	       
+    </LinearLayout>
+    
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Back"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:id="@+id/bBack" />
+        
+        <Button 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Forward"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:id="@+id/bForward" />
+        
+         <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Refresh"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:id="@+id/bRefresh" />
+        
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:text="Clear History"
+            android:id="@+id/bClear" />
+        
+    </TableRow>
+    
+    <WebView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/wvBrowser" />
+    
+</LinearLayout>

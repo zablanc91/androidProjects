@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 public class Menu extends ListActivity{
 
-	private String[] classes = {"TextPlay", "HateMail", "Hangman", "CaesarCipher"};
+	private String[] classes = {"TextPlay", "HateMail", "Hangman", "CaesarCipher", "Browser"};
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +52,7 @@ public class Menu extends ListActivity{
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// TODO Auto-generated method stub
+		// display the options at the main menu
 		switch(item.getItemId()){
 		case R.id.about:
 			Intent i = new Intent("com.example.smorgasbord.ABOUT");
